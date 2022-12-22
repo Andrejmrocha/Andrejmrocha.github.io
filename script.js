@@ -8,13 +8,15 @@ function criptografar(){
 
 	document.querySelector("#img").style.display = "none";
 	
-	document.querySelector(".botaoCopiar").style.border = "1px solid #0A3871";
+	document.querySelector(".botaoCopiar").style.border = "1px solid black";
 	
-	document.querySelector(".textCopiar").style.color = "#0A3871";
+	document.querySelector(".textCopiar").style.color = "black";
 
 	document.querySelector("#frame5").style.display = "none";
 
 	document.querySelector("#ptexto2").style.display = "flex";
+
+	document.querySelector("#lk").style.display = "none";
 	
 	var textoOriginal = document.querySelector(".entrada");
 	var texto = textoOriginal.value;
@@ -26,6 +28,22 @@ function criptografar(){
 }
 
 function Descriptografar(){
+
+	document.querySelector(".retangulo").style.diplay = "none";
+	
+	document.querySelector(".text2").style.color = "#495057";
+
+	document.querySelector("#img").style.display = "none";
+	
+	document.querySelector(".botaoCopiar").style.border = "1px solid black";
+	
+	document.querySelector(".textCopiar").style.color = "black";
+
+	document.querySelector("#frame5").style.display = "none";
+
+	document.querySelector("#ptexto2").style.display = "flex";
+
+	document.querySelector("#lk").style.display = "none";
 
 	var textoOriginal = document.querySelector(".entrada");
 	var texto = textoOriginal.value;

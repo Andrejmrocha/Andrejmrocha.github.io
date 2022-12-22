@@ -1,9 +1,9 @@
 body {
 	
-	height: 524px;
+	height: 556px;
 	width: 940px;
 	position: relative;
-	background: #E5E5E5;
+	background: linear-gradient(rgba(65, 105, 225, 1) 30%, white 99%);
 	font-family: 'Inter', normal;
 
 }
@@ -114,48 +114,51 @@ body {
 }
 
 .botaoC {
-
+	font-size: 18px;
 	padding: 24px;
-	width: 200px;
-	height: 15px;
-	background: #0A3871;
+	width: 180px;
+	background: lightgrey;
+	border: 1px solid black;
 	border-radius: 24px;
 	position: absolute;
-	top: 300px;
-	color: white;
+	top: 140px;
+	left: 280px;
+	color: black;
+	line-height: 1%;
 
 }
 
 
 .botaoC:hover {
-	transition: 1s;
-	background: #00AAC1;
-	color: black;
+	transition: 1.5s;
+	color: #29FD11;
+	background: black;
 }
 
 
-input[value="Criptografar"], button{
+/*input[value="Criptografar"], button{
 	
-	line-height: 1%;
+	
 }
 
 input[value="Descriptografar"], button{
-	background: white;
-	line-height: 1%;
-	color: blue;
-	top: 
-}
+	
+	
+	
+}*/
 
 .botaoD {
+	font-size: 18px;
 	border: 1px solid black;
 	padding: 24px;
-	width: 200px;
-	height: 15px;
-	background: #0A3871;
+	width: 180px;
+	color: black;
+	background: lightgrey;
 	border-radius: 24px;
 	position: absolute;
-	top: 300px;
-	left: 220px;
+	top: 260px;
+	left: 280px;
+	line-height: 1%;
 
 }
 .botaoD:hover {
@@ -167,17 +170,18 @@ input[value="Descriptografar"], button{
 
 
 input {
-	color: #0A3871;
+	color: black;
 	position: absolute;
 	width: 480px;
 	height: 48px;
-	
+	padding-left: 10px;
+	background: lightgrey;
 	top: 0px;
-	
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 100%;
-	border: none;
+	border: 1px solid black;
+	border-radius: 20px;
 
 
 
@@ -186,11 +190,21 @@ input {
 
 input:focus {
 	outline: none;
-	animation: 
+	
 }
 
 ::-webkit-input-placeholder {
-	color: #0A3871;
+	color: black;
+}
+
+#quadrado {
+	position: absolute;
+	top: 164px;
+	left: 260px;
+	border: 5px double black;
+	border-radius: 20px;
+	width: 218px;
+	height: 120px;
 }
 
 .retangulo {
@@ -204,6 +218,12 @@ input:focus {
 	background: transparent;
 	box-shadow: 0px 12px 22px 0px rgba(0, 0, 0, 0.4);
 	border-radius: 32px;
+}
+
+a {
+	font-size: 8px;
+	text-decoration: none;
+	color: black;
 }
 
 .botaoCopiar {
@@ -222,12 +242,7 @@ input:focus {
 	border-radius: 24px;
 }
 
-.botaoCopiar:active {
 
-	
-	background: skyblue;
-	color: white;
-}
 
 
 
@@ -288,6 +303,9 @@ textarea {
 	outline: none;
 	border: none;
 	resize: none;
+	background: rgba(61, 138, 138, 0.1);
+
+
 }
 
 

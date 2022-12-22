@@ -26,9 +26,13 @@
 		<h3>Digite um texto que você deseja criptografar ou descriptografar.</h3>
 		
 	</div>
+
+	<div class="retangulo">
+			
+	</div>
 	<div id="frame4">
-		<img id="img" src="criptografado.png" width="200px">
-		
+		<img id="img" src="criptografado.png" width="200px"><br>
+		<a href="https://www.flaticon.com/br/icones-gratis/criptografia" id="lk" target="_blank">Criptografia ícones criados por Freepik - Flaticon</a>
 
 	</div>
 	<div id="frame1">
@@ -39,16 +43,17 @@
 	<div id="frame3">
 
 		<input class="entrada" type="text" placeholder="digite seu texto" name="texto" >
-
+		<div id="quadrado">
+		
+		</div>
 		<input type="button" class="botaoC" value="Criptografar" onclick="criptografar()"></button>
 		<input type="button" class="botaoD" value="Descriptografar" onclick="Descriptografar()"></button>
-
+		
 
 	</div>
-	<div class="retangulo">
-			
-	</div>
-	<textarea id="ptexto2" class="text2" rows="5" cols="50"></textarea>
+	
+	
+	<textarea id="ptexto2" class="text2" rows="5" cols="50" readonly="readonly"></textarea>
 	<button id="copiar" class="botaoCopiar" onclick="copiarTexto()"><h5 class="textCopiar">Copiar</h5></button>
 	<script src="script.js"></script>
 </body>
