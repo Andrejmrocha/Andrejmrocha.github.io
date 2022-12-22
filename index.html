@@ -13,48 +13,84 @@
 	
 </head>
 <body>
-	<div id="frame6">
-		
-		<div class="logo">
-			<img src="Vector.png" width="31.09px" height="48px" left="44px">
-		</div>
+	<main>
+		<section>
+			<div id="frame6">
+				
+				<div class="logo">
+					<img src="Vector.png" width="31.09px" height="48px" left="44px">
+				</div>
 
-	</div>
-	<div id="frame5">
-		
-		<h2>Nenhuma mensagem encontrada</h2>
-		<h3>Digite um texto que você deseja criptografar ou descriptografar.</h3>
-		
-	</div>
+			</div>
+			<div id="frame5">
+				
+				<h2>Nenhuma mensagem encontrada</h2>
+				<h3>Digite um texto que você deseja criptografar ou descriptografar.</h3>
+				
+			</div>
 
-	<div class="retangulo">
+			<div class="retangulo">
+					
+			</div>
+			<div id="frame4">
+				<img id="img" src="criptografado.png" width="200px"><br>
+				<a href="https://www.flaticon.com/br/icones-gratis/criptografia" id="lk" target="_blank">Criptografia ícones criados por Freepik - Flaticon</a>
+
+			</div>
+			<div id="frame1">
+				<img src="exc.png" width="16px" height="16px">
+				<h4>Apenas letras minúsculas e sem acento.</h4>
+				
+			</div>
+			<div id="frame3">
+
+				<input class="entrada" type="text" placeholder="digite seu texto" name="texto" >
+				<div id="quadrado">
+				
+				</div>
+				<input type="button" class="botaoC" value="Criptografar" onclick="criptografar()"></button>
+				<input type="button" class="botaoD" value="Descriptografar" onclick="Descriptografar()"></button>
+				
+
+			</div>
 			
-	</div>
-	<div id="frame4">
-		<img id="img" src="criptografado.png" width="200px"><br>
-		<a href="https://www.flaticon.com/br/icones-gratis/criptografia" id="lk" target="_blank">Criptografia ícones criados por Freepik - Flaticon</a>
+			
+			<textarea id="ptexto2" class="text2" rows="5" cols="50" readonly="readonly"></textarea>
+			<button id="copiar" class="botaoCopiar" onclick="copiarTexto()"><h5 class="textCopiar">Copiar</h5></button>
+		</section>
+	</main>
 
-	</div>
-	<div id="frame1">
-		<img src="exc.png" width="16px" height="16px">
-		<h4>Apenas letras minúsculas e sem acento.</h4>
-		
-	</div>
-	<div id="frame3">
+	<footer>
+		<ul class="redes">
+			<li>
+				<h4>
+					<a href="https://www.linkedin.com/in/andr%C3%A9jonas/" target="_blank">
+						<img src="linkedin.png">
+					</a>
+				</h4>
+				
+			</li>
+			<li>
+				<h4>
+					<a href="https://github.com/Andrejmrocha" target="_blank">
+						<img src="github.png">
+					</a>
+				</h4>
+				
+			</li>
+			<li>
+				<h4>
+					<a href="https://www.instagram.com/andrejonax/" target="_blank">
+						<img src="instagram.png" >
+					</a>
+				</h4>
+				
+			</li>
+		</ul>
+		<p>Desenvolvido por Andre Jonas<br>
+		<a href="mailto:andrejmrocha@gmail.com">andrejmrocha@gmail.com</a></p>
+	</footer>
 
-		<input class="entrada" type="text" placeholder="digite seu texto" name="texto" >
-		<div id="quadrado">
-		
-		</div>
-		<input type="button" class="botaoC" value="Criptografar" onclick="criptografar()"></button>
-		<input type="button" class="botaoD" value="Descriptografar" onclick="Descriptografar()"></button>
-		
-
-	</div>
-	
-	
-	<textarea id="ptexto2" class="text2" rows="5" cols="50" readonly="readonly"></textarea>
-	<button id="copiar" class="botaoCopiar" onclick="copiarTexto()"><h5 class="textCopiar">Copiar</h5></button>
 	<script src="script.js"></script>
 </body>
 </html>
