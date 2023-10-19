@@ -1,0 +1,21 @@
+.viewport {
+  height: 50vh;
+  width: 80vw;
+  border: 1px solid #fff;
+}
+
+.item {
+  border: 2px solid #003566;
+  color: #fff;
+  width: 77vw;
+  height: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: .3rem;
+  padding: .3rem;
+}
+
+.track-name {
+   color: #fff;
+}
