@@ -1,7 +1,7 @@
 export class Track {
   constructor(
-    public tracks: string[],
-    public artists: string[]
+    public name: string,
+    public artists: any[]
   ){
 
   }
