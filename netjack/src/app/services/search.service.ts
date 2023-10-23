@@ -13,7 +13,7 @@ export class SearchService {
 
   public search(text: string): Observable<Track[]>{
 
-    const token = 'BQAXGu3ZBKOCEYBQkAssRd8xYU7q8SeO3ncfUao3sqSx_qme_Pn7ahpkXhGbL1a5JBOs4sHeVZ7wqZ7SHaCtQTtjtcWw8G3sK9I9VpacfEPIhjdBkXQ'
+    const token = environment.token
     const endpoint = `${environment.searchEndpointStart}${text}${environment.searchEndpointFinal}`
     const url = `${environment.spotifyUrl}${endpoint}`
 
@@ -30,7 +30,9 @@ export class SearchService {
     return data.tracks.items.map((element:any) => {
       const name = element.name
       const artists = element.artists.map((singer: any) => singer.name)
-      return new Track(name, artists);
+      const image = element.album.images[1].url
+      const link = element.external_urls.spotify
+      return new Track(name, artists, image, link)
 
     })
   }

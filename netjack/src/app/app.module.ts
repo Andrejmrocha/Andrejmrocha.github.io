@@ -11,7 +11,8 @@ import { PostSongComponent } from './components/post-song/post-song.component';
 import { ScrollingComponent } from './components/scrolling/scrolling.component';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { DetailComponent } from './components/detail/detail.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http'
     HomeComponent,
     CardSongComponent,
     PostSongComponent,
-    ScrollingComponent
+    ScrollingComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,11 @@
 <cdk-virtual-scroll-viewport itemSize="50" class="viewport">
-  <div *cdkVirtualFor="let track of trackList" class="item">
+  <div *cdkVirtualFor="let track of trackList" class="item" (click)="redirectToDetail(track)">
+    <div class="track-image">
+      <div class="image"><img src="{{track.image}}" alt="" srcset=""></div>
+    </div>
     <div class="track-info">
       <div class="track-name">{{track.name}}</div>
-      <div class="tracks-artists">{{track.artists}}</div>
+      <div class="track-artists">{{track.artists}}</div>
     </div>
   </div>
 </cdk-virtual-scroll-viewport>

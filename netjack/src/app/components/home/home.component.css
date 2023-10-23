@@ -3,6 +3,8 @@
   top: 1.2rem;
   left: 1.35rem;
   width: 5rem;
+  background-color: #000814;
+
 }
 
 .logo img {
@@ -18,6 +20,7 @@
   padding: .3rem;
   color: #fff;
   border: 2px solid #003566;
+  background-color: #000814;
   border-radius: .5rem;
   display: flex;
   justify-content: center;
@@ -113,6 +116,7 @@ fav-icon {
 .post {
   border: 2px solid #003566;
   color: #fff;
+  background-color: #000814;
   border-radius: 0 0 .5rem .5rem;
   width: 20vw;
   font-size: 1.1rem;
@@ -124,6 +128,7 @@ fav-icon {
 .topics {
   border: 2px solid #003566;
   color: #fff;
+  background-color: #000814;
   border-radius: 0 0 .5rem .5rem;
   width: 25vw;
   font-size: 1.1rem;

@@ -1,0 +1,120 @@
+.logo {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.35rem;
+  width: 5rem;
+  background-color: #000814;
+
+}
+
+.logo img {
+  width: 100%;
+  color: #fff
+}
+
+.perfil {
+  position: absolute;
+  top: 1.2rem;
+  left: 14.55rem;
+  width: 25vw;
+  padding: .3rem;
+  color: #fff;
+  border: 2px solid #003566;
+  background-color: #000814;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.logout {
+  position: absolute;
+  top: 1.5rem;
+  left: 21.5rem;
+}
+
+.white {
+  color: #fff;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: #000814;
+  border: 1px solid #003566;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: .5rem;
+  margin-top: 40%;
+}
+
+.track-image {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: .3rem;
+  overflow: hidden;
+}
+
+.track-image img {
+  max-width: 100%;
+}
+
+.track-info {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: .5rem 0;
+  width: 100%;
+}
+
+.track {
+  border: 2px solid #003566;
+  position: relative;
+  left: .7rem;
+  z-index: 0;
+  padding: .5rem;
+  color: #fff;
+  width: 50%;
+  border-radius: .5rem 0 0 .5rem;
+
+}
+
+.track-name {
+  margin-right: .3rem;
+  font-size: .8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #8ecae6;
+}
+
+.track-singer {
+  margin-right: .3rem;
+  font-size: .7rem;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.play {
+  position: relative;
+  z-index: 1;
+  width: 1rem;
+  padding: 1rem;
+  background-color: #000814;
+  border: 2px solid #003566;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play fa-icon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
