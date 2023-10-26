@@ -12,7 +12,8 @@ import { ScrollingComponent } from './components/scrolling/scrolling.component';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
-import { DetailComponent } from './components/detail/detail.component'
+import { DetailComponent } from './components/detail/detail.component';
+import { HeaderComponent } from './components/header/header.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DetailComponent } from './components/detail/detail.component'
     CardSongComponent,
     PostSongComponent,
     ScrollingComponent,
-    DetailComponent
+    DetailComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

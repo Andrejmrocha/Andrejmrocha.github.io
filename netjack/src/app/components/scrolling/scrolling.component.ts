@@ -17,7 +17,7 @@ import { TrackService } from 'src/app/services/track.service';
 export class ScrollingComponent {
   @Input() trackList: Track[]= []
 
-  constructor(private httpClient:HttpClient, private searchService:SearchService,
+  constructor(private httpClient:HttpClient,
     private router:Router, private trackService:TrackService){
 
   }

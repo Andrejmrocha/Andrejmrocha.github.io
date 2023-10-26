@@ -1,33 +1,19 @@
-<div class="logo"><img src="assets/Logo.png" alt="" srcset=""></div>
-<div class="perfil">Meu Perfil</div>
-<fa-icon [icon]="faRight" class="logout white"></fa-icon>
 <div class="container">
-  <div class="order-list">
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>5</p>
-  </div>
+  <div class="title">Viagem</div>
   <div class="track-list">
-    <app-card-song></app-card-song>
-    <app-card-song></app-card-song>
-    <app-card-song></app-card-song>
-    <app-card-song></app-card-song>
-    <app-card-song></app-card-song>
+
   </div>
-  <div class="like-list">
+  <!-- <div class="like-list">
     <fa-icon [icon]="faThumbs[1]" (click)="myFunction(1)" id="i-1" class="white"></fa-icon>
     <fa-icon [icon]="faThumbs[2]" (click)="myFunction(2)" id="i-2" class="white"></fa-icon>
     <fa-icon [icon]="faThumbs[3]" (click)="myFunction(3)" id="i-3" class="white"></fa-icon>
     <fa-icon [icon]="faThumbs[4]" (click)="myFunction(4)" id="i-4" class="white"></fa-icon>
     <fa-icon [icon]="faThumbs[5]" (click)="myFunction(5)" id="i-5" class="white"></fa-icon>
+  </div> -->
+  <div class="buttons">
+    <div class="button" [routerLink]="['/post-song']">Post</div>
+    <div class="button">Send Song</div>
   </div>
 </div>
-<div class="down-bar">
-  <div class="post" [routerLink]="['/post-song']">Postar</div>
-  <div class="topics">Interações</div>
-</div>
-<div class="shadow"></div>
 
 

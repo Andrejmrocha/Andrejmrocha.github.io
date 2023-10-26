@@ -4,6 +4,7 @@ import { faRightFromBracket, faSearch } from '@fortawesome/free-solid-svg-icons'
 import { Track } from 'src/app/model/track.model';
 import { SearchService } from 'src/app/services/search.service';
 
+
 @Component({
   selector: 'app-post-song',
   templateUrl: './post-song.component.html',
@@ -16,7 +17,6 @@ export class PostSongComponent implements OnInit{
   trackList: Track[] = [];
 
   constructor(private searchService: SearchService){
-
   }
 
   ngOnInit(){

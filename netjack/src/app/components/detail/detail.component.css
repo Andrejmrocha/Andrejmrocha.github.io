@@ -24,7 +24,7 @@
   border-radius: .5rem;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .logout {
@@ -65,7 +65,7 @@
 .track-info {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   margin: .5rem 0;
   width: 100%;
 }

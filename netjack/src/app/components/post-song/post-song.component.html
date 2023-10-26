@@ -1,10 +1,8 @@
-<div class="logo"><img src="assets/Logo.png" alt="" srcset=""></div>
-<div class="perfil">Meu Perfil</div>
-<fa-icon [icon]="faRight" class="logout white"></fa-icon>
 <div class="container">
   <div class="search">
     <fa-icon [icon]="faSearch" class="search-icon"></fa-icon>
-    <input type="text" id="search-input" (keyup)="buscar($event)">
+    <input type="text" id="search-input" (keyup)="buscar($event)" placeholder="Search...">
   </div>
-  <app-scrolling [trackList]="trackList"></app-scrolling>
+  <div class="track-list"></div>
+  <!-- <app-scrolling [trackList]="trackList"></app-scrolling> -->
 </div>

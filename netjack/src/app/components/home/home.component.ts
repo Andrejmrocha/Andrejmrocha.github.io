@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { faThumbsUp, faThumbsDown, faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -8,8 +9,8 @@ import { faThumbsUp, faThumbsDown, faRightFromBracket } from '@fortawesome/free-
 })
 export class HomeComponent {
   faRight = faRightFromBracket;
-  faThumbs = [faThumbsUp, faThumbsUp, faThumbsUp, faThumbsUp, faThumbsUp, faThumbsUp]
-  qt_click = [0, 0, 0, 0, 0, 0]
+  faThumbs = [faThumbsUp, faThumbsUp, faThumbsUp, faThumbsUp, faThumbsUp, faThumbsUp];
+  qt_click = [0, 0, 0, 0, 0, 0];
 
   myFunction(index: number) {
     const icon = document.getElementById(`i-${index}`) as HTMLElement
