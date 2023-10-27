@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { HeaderService } from 'src/app/services/header.service';
 
 @Component({
   selector: 'app-header',
@@ -8,4 +9,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 })
 export class HeaderComponent {
   menu = faBars;
+  showMenu: boolean = true;
+
+  constructor(private headerService: HeaderService){
+    this.headerService.showMenu$.subscribe(show => this.showMenu = show);
+  }
 }

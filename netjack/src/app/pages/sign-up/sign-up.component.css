@@ -1,0 +1,96 @@
+.container {
+  width: 83.33vw;
+  height: 55.47vh;
+  margin: 3.6vh auto;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(217, 217, 217, .25);
+  font-family: 'Roboto';
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 2.81vh auto;
+}
+
+.line {
+  width: 69.44vw;
+  height: 1px;
+  margin: 0 auto;
+  background-color: rgba(217, 217, 217, .1);
+}
+
+.name {
+  margin-top: 7.03vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55.55vw;
+  height: 6.85vw;
+  padding-left: .5rem;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #01FF48;
+}
+
+.email {
+  margin: 1vh auto;
+  width: 55.55vw;
+  height: 6.85vw;
+  padding-left: .5rem;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #01FF48;
+}
+
+.user-password {
+  margin: 1vh auto;
+  width: 57.72vw;
+  height: 6.85vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user {
+  width: 25vw;
+  height: 6.85vw;
+  padding-left: .5rem;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #01FF48;
+}
+
+.password {
+  width: 25vw;
+  height: 6.85vw;
+  padding-left: .5rem;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #01FF48;
+}
+
+.register {
+  margin-top: 2.1875vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 57.72vw;
+  height: 6.25vh;
+  background-color: rgba(217, 217, 217, .5);
+  border: 1px solid #01FF48;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+input {
+  color: #fff;
+}
+
+input:focus {
+  outline: none;
+}

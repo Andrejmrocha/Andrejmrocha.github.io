@@ -13,7 +13,10 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { DetailComponent } from './components/detail/detail.component';
-import { HeaderComponent } from './components/header/header.component'
+import { HeaderComponent } from './components/header/header.component';
+import { SignInComponent } from './pages/sign-in/sign-in.component';
+import { SignUpComponent } from './pages/sign-up/sign-up.component';
+import { PostPageComponent } from './pages/post-page/post-page.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { HeaderComponent } from './components/header/header.component'
     PostSongComponent,
     ScrollingComponent,
     DetailComponent,
-    HeaderComponent
+    HeaderComponent,
+    SignInComponent,
+    SignUpComponent,
+    PostPageComponent
   ],
   imports: [
     BrowserModule,
