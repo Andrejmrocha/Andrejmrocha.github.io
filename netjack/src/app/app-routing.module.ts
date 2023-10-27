@@ -10,7 +10,6 @@ import { SignUpComponent } from './pages/sign-up/sign-up.component';
 const routes: Routes = [
   {path: 'signin', component:SignInComponent},
   {path: 'signup', component:SignUpComponent},
-  {path: '', component:HomeComponent},
   {path: 'home', component:HomeComponent},
   {path: 'post-song', component:PostSongComponent},
   {path: 'scroll', component:ScrollingComponent},
