@@ -8,12 +8,15 @@ import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { SignUpComponent } from './pages/sign-up/sign-up.component';
 
 const routes: Routes = [
-  {path: 'signin', component:SignInComponent},
-  {path: 'signup', component:SignUpComponent},
-  {path: 'home', component:HomeComponent},
-  {path: 'post-song', component:PostSongComponent},
-  {path: 'scroll', component:ScrollingComponent},
-  {path: 'detail', component:DetailComponent}
+  {path: 'signup', component: SignUpComponent},
+  {
+    path: '', component:HomeComponent,
+    children: [
+      {path: 'home', component: HomeComponent},
+      {path: 'post-song', component: PostSongComponent},
+    ]
+  },
+  {path: '**', redirectTo:'signup'}
 ];
 
 @NgModule({
