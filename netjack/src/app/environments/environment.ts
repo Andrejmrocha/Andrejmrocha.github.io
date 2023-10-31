@@ -5,5 +5,7 @@ export const environment = {
   clientSecret: '16e13023ae264740acf2019403b52ef8',
   searchEndpointStart: 'v1/search?q=',
   searchEndpointFinal: '&type=track&market=BR&limit=10',
-  token: 'BQBtMfaQ-kr5NKTkYQlHxtYRls8VhWwwZfp80HCn7T8qYgt5pkBCez0iH37Ab4ISxPaVhNhi7oa8-ThIe_bsdbLUg5peeD9dY0ChdCFIJXgBM9OlCnc',
+  token: 'BQBMVdmD_M040zKfAhe8qsw8rnNR58er_AYrO4gQQtqT1wefRrtkZOnH7uF38a_Y0cnk_OCQx-tG1n8NTv_Li2f2Elh6tIS8YWRHugBd6KG0AKoicjI',
 }
+
+
