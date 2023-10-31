@@ -1,56 +1,57 @@
 .container {
-  border: 2px solid #003566;
-  color: #fff;
-  background-color: #000814;
-  width: 77vw;
-  height: 3rem;
+  width: 83.33vw;
+  height: 10.25vh;
   display: flex;
-  justify-content: space-evenly;
-  border-radius: .3rem;
-  padding: .3rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #01FF48;
+}
+
+.image {
+  width: 10.25vh;
+  height: 10.25vh;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 80%;
+  border-radius: 3px;
+  background-color: #FFF;
 }
 
 .track-info {
-  width: 70%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.track-name {
-  font-size: 1rem;
-  font-weight: 300;
-  width: 100%;
-  height: 1rem;
-  color: #8ecae6;
-}
-
-.track-singer {
-  font-size: 0.8rem;
-  font-weight: 400;
-  width: 100%;
-  height: 1rem;
+  padding-left: 2.77vw;
+  width: 55.33vw;
   color: #fff;
 }
 
-.post-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+.track-name {
+  width: 90%;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.user {
-  font-size: 0.8rem;
-  font-weight: 300;
-  height: 1rem;
+.track-singer {
+  font-size: 0.875rem;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.city {
-  font-size: 0.7rem;
-  font-weight: 300;
-  height: 1rem;
+.green {
+  color: #01FF48;
 }
 
+.red {
+  color: red;
+}
 
+.white {
+  color: #fff;
+}

@@ -1,0 +1,15 @@
+<div class="detail-container">
+  <div class="detail-image"><img src="{{ track.image }}" alt="" srcset=""></div>
+  <div class="track-name-w">
+    <div class="track-name">
+      <span id="track-name">{{ track.name }}&nbsp;</span>
+    </div>
+  </div>
+  <div class="track-artists-w">
+    <div class="track-artists">
+      <span id="artists-name">{{ track.artists }}&nbsp;</span>
+    </div>
+  </div>
+  <app-button [width]="'58.33vw'" [height]="'6.25vh'" [content]="'Post'"></app-button>
+  <app-button [width]="'58.33vw'" [height]="'6.25vh'" [content]="'Open in Spotify'" [link]="track.link"></app-button>
+</div>

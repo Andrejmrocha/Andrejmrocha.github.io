@@ -1,0 +1,15 @@
+.button {
+  background-color: rgba(217, 217, 217, 0.5);
+  color: #F5F3F4;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid #01FF48;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}

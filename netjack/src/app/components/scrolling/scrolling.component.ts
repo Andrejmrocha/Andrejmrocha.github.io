@@ -24,7 +24,7 @@ export class ScrollingComponent {
 
   redirectToDetail(track: Track){
     this.trackService.setSelectedTrack(track)
-    this.router.navigate(['/detail'])
+    this.router.navigate(['/detail-track'])
   }
 }
 

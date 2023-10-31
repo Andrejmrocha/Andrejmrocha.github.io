@@ -1,0 +1,47 @@
+.container {
+  width: 83.33vw;
+  height: 60.56vh;
+  margin: 3.6vh auto;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.title {
+  width: 83.33vw;
+  height: 7.8125vh;
+  font-size: 1.375rem;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.track-list {
+  width: 83.33vw;
+  height: 51.25vh;
+}
+
+.buttons {
+  width: 83.33vw;
+  height: 6.25vh;
+  margin-top: 1.56vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 40.27vw;
+  height: 7vh;
+  background-color: rgba(217, 217, 217, 0.5);
+  color: #F5F3F4;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid #01FF48;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

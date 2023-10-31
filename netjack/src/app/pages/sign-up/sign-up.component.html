@@ -1,11 +1,21 @@
 <div class="container">
   <div class="title">Sign Up</div>
   <div class="line"></div>
-  <input type="text" class="name" placeholder="name">
-  <input type="text" class="email" placeholder="email">
-  <div class="user-password">
-    <input type="text" class="user" placeholder="username">
-    <input type="text" class="password" placeholder="password">
-  </div>
-  <a [routerLink]="['/home']"><div class="register">Register</div></a>
+  <form>
+    <input type="text" class="name" placeholder="name">
+    <input type="text" class="username" placeholder="username">
+    <input type="text" class="email" placeholder="email">
+    <input type="password" class="password" placeholder="password">
+    <div class="register mat-elevation-z4"
+     matRipple
+     [matRippleCentered]="centered"
+     [matRippleDisabled]="disabled"
+     [matRippleUnbounded]="unbounded"
+     [matRippleColor]="color"
+     [matRippleRadius]="radius"
+     [routerLink]="['/login']">
+     Register
+    </div>
+  </form>
+
 </div>

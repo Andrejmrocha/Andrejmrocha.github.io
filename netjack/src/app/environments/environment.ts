@@ -5,5 +5,5 @@ export const environment = {
   clientSecret: '16e13023ae264740acf2019403b52ef8',
   searchEndpointStart: 'v1/search?q=',
   searchEndpointFinal: '&type=track&market=BR&limit=10',
-  token: null,
+  token: 'BQAIO7xQrS5OB0_Ag3SPqUMqdnzBYqHikGRJSNUpEhTUQ9-Zzt6aFwf97n83SWOEWQ9uBGXOHpvu18jTXq4HytYNSBmix4jIzYouT7gjpb7UHdKJVE4',
 }

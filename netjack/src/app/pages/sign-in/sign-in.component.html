@@ -1,1 +1,33 @@
+<div class="container">
+  <div class="title">Sign In</div>
+  <div class="line"></div>
+  <form>
+    <div class="username-box">
+      <div class="icon"><fa-icon [icon]="userIcon"></fa-icon></div>
+      <input type="text" class="username" placeholder="username">
+    </div>
 
+    <div class="password-box">
+      <div class="icon"><fa-icon [icon]="passwordIcon"></fa-icon></div>
+      <input type="password" class="password" placeholder="password">
+    </div>
+
+    <div class="login mat-elevation-z4"
+     matRipple
+     [matRippleCentered]="centered"
+     [matRippleDisabled]="disabled"
+     [matRippleUnbounded]="unbounded"
+     [matRippleColor]="color"
+     [matRippleRadius]="radius"
+     [routerLink]="['/home']">
+     Login
+    </div>
+
+    <div class="options">
+      <div class="checkbox"><input type="checkbox" name="remember" id="input-checkbox">Remember me</div>
+      <div class="forgot-password" [routerLink]="['/']">Forgot password?</div>
+    </div>
+    <div class="signup">Don’t have an Account? <strong [routerLink]="['/signup']">Sign Up</strong></div>
+  </form>
+
+</div>

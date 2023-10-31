@@ -1,0 +1,181 @@
+.container {
+  width: 83.33vw;
+  height: 55.47vh;
+  margin: 3.6vh auto;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(217, 217, 217, .25);
+  border-radius: 5px;
+}
+
+form {
+  margin: 0 auto;
+  width: 57vw;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 2.81vh auto;
+}
+
+.line {
+  width: 57vw;
+  height: 1px;
+  margin: 0 auto;
+  background-color: rgba(217, 217, 217, .3);
+}
+
+.username-box {
+  width: 57vw;
+  height: 8.85vw;
+  margin-top: 7.5vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #01FF48;
+}
+
+.password-box {
+  width: 57vw;
+  height: 8.85vw;
+  margin-top: 1.5vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #01FF48;
+}
+
+.icon {
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.username {
+  width: 47vw;
+  height: 8.85vw;
+}
+
+.password {
+  width: 47vw;
+  height: 8.85vw;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.login {
+  margin-top: 2.1875vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 57vw;
+  height: 7vh;
+  background-color: rgba(217, 217, 217, .5);
+  border: 1px solid #01FF48;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle closest-side, white, lighten(palevioletred, 15%));
+
+  width: 1px;
+  height: 1px;
+  z-index: 3;
+  animation: ripple 0.5s ease-in;
+}
+
+.circle:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 4px darkgray;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+
+  75% {
+    transform: scale(450, 450);
+    opacity: 0.75;
+  }
+
+  100% {
+    transform: scale(700, 700);
+    opacity: 0;
+  }
+
+}
+
+input {
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  font-size: .8rem;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+.options {
+  width: 53.22vw;
+  font-size: 0.625rem;
+  margin: 1vh auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+#input-checkbox {
+  margin-right: 1vw;
+  color: red;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.forgot-password {
+  color: #fff;
+}
+.forgot-password:hover {
+  cursor: pointer;
+}
+
+.signup {
+  width: 40vw;
+  font-size: .625rem;
+  margin-top: 6.68vh;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+
+fa-icon {
+  font-size: .8rem;
+}

@@ -11,4 +11,9 @@ export class SignUpComponent {
   constructor(private headerService:HeaderService){
     this.headerService.setShowMenu(false);
   }
+  centered = false;
+  disabled = false;
+  unbounded = false;
+  color = "rgba(0,0,0,0.2)";
+  radius = 60
 }

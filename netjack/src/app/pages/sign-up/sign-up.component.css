@@ -6,7 +6,12 @@
   display: flex;
   flex-direction: column;
   background-color: rgba(217, 217, 217, .25);
-  font-family: 'Roboto';
+  border-radius: 5px;
+}
+
+form {
+  margin: 0 auto;
+  width: 57vw;
 }
 
 .title {
@@ -17,66 +22,49 @@
 }
 
 .line {
-  width: 69.44vw;
+  width: 57vw;
   height: 1px;
   margin: 0 auto;
-  background-color: rgba(217, 217, 217, .1);
+  background-color: rgba(217, 217, 217, .3);
 }
 
+
 .name {
-  margin-top: 7.03vh;
+  width: 57vw;
+  height: 8.85vw;
+  margin-top: 2.5vh;
   margin-left: auto;
   margin-right: auto;
-  width: 55.55vw;
-  height: 6.85vw;
-  padding-left: .5rem;
-  background-color: transparent;
-  border: 0;
-  border-bottom: 1px solid #01FF48;
+}
+
+.username {
+  width: 57vw;
+  height: 8.85vw;
+  margin-top: 1.5vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .email {
-  margin: 1vh auto;
-  width: 55.55vw;
-  height: 6.85vw;
-  padding-left: .5rem;
-  background-color: transparent;
-  border: 0;
-  border-bottom: 1px solid #01FF48;
-}
-
-.user-password {
-  margin: 1vh auto;
-  width: 57.72vw;
-  height: 6.85vw;
-  display: flex;
-  justify-content: space-between;
-}
-
-.user {
-  width: 25vw;
-  height: 6.85vw;
-  padding-left: .5rem;
-  background-color: transparent;
-  border: 0;
-  border-bottom: 1px solid #01FF48;
+  margin-top: 1.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 57vw;
+  height: 8.85vw;
 }
 
 .password {
-  width: 25vw;
-  height: 6.85vw;
-  padding-left: .5rem;
-  background-color: transparent;
-  border: 0;
-  border-bottom: 1px solid #01FF48;
+  margin: 1.5vh auto;
+  width: 57vw;
+  height: 8.85vw;
 }
 
 .register {
   margin-top: 2.1875vh;
   margin-left: auto;
   margin-right: auto;
-  width: 57.72vw;
-  height: 6.25vh;
+  width: 57vw;
+  height: 7vh;
   background-color: rgba(217, 217, 217, .5);
   border: 1px solid #01FF48;
   border-radius: 5px;
@@ -88,7 +76,12 @@
 }
 
 input {
+  border: 0;
+  border-radius: 0;
   color: #fff;
+  font-size: .8rem;
+  background-color: transparent;
+  border-bottom: 1px solid #01FF48;
 }
 
 input:focus {

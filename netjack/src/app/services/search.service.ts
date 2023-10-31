@@ -29,7 +29,7 @@ export class SearchService {
   private mapResponse(data:any):Track[]{
     return data.tracks.items.map((element:any) => {
       const name = element.name
-      const artists = element.artists.map((singer: any) => singer.name)
+      const artists = element.artists.map((singer: any) => ' '+singer.name)
       const image = element.album.images[1].url
       const link = element.external_urls.spotify
       return new Track(name, artists, image, link)

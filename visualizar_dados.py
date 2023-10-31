@@ -7,7 +7,7 @@ client_secret = '16e13023ae264740acf2019403b52ef8'
 token_url = 'https://accounts.spotify.com/api/token'
 
 data = {
-    'grant_type': 'client_credentials',
+    'grant_type': "client_credentials",
     'client_id': client_id,
     'client_secret': client_secret
 }
